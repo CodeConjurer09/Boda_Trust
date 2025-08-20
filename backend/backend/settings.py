@@ -1,8 +1,11 @@
 from pathlib import Path
 from datetime import timedelta
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+GDAL_LIBRARY_PATH = r"C:\Program Files\GDAL\bin\gdal.dll"
 
 
 # Quick-start development settings - unsuitable for production
